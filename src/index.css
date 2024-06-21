@@ -2,7 +2,18 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsla(0, 0%, 45%, 85%);
+  background-color: hsla(0, 5%, 71%, 0.089);
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 1rem;
 }
 .stopwatch{
   display: flex;
@@ -12,6 +23,9 @@ body{
   border-radius: 50px;
   background-color: whitesmoke;
   padding: 32px;
+  margin-top: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(26, 24, 24, 0.356), 0 6px 20px 0 hsla(0, 0%, 11%, 0.377);
+
 }
 .display{
   font-size: 5rem;
@@ -37,17 +51,17 @@ body{
   background-color: hsla(120, 98%, 50%, 0.9);
 }
 .start-button:hover{
-  background-color: hsla(120, 98%, 41%, 75%);
+  background-color: hsla(120, 97%, 35%, 0.658);
 }
 .stop-button{
   background-color: hsla(0, 98%, 55%, 0.9);
 }
 .stop-button:hover{
-  background-color: hsla(0, 98%, 50%, 0.75);
+  background-color: hsla(0, 97%, 42%, 0.767);
 }
 .reset-button{
   background-color: hsla(236, 91%, 70%, 0.9);
 }
 .reset-button:hover{
-  background-color: hsla(236, 91%, 63%, 75%);
+  background-color: hsla(236, 84%, 53%, 0.65);
 }
